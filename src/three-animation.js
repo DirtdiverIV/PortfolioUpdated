@@ -2,7 +2,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
-class Scene3D {
+export class Scene3D {
   constructor() {
     // Creamos el contenedor y lo agregamos al header
     this.container = document.createElement('div');
@@ -55,7 +55,7 @@ class Scene3D {
     const loader = new GLTFLoader();
     
     loader.load(
-      './files/Desk.glb',
+      '/files/Desk.glb',
       (gltf) => {
         // Creamos un grupo contenedor para el modelo
         this.deskGroup = new THREE.Group();
@@ -110,5 +110,3 @@ class Scene3D {
     this.renderer.render(this.scene, this.camera);
   }
 }
-
-export default Scene3D;

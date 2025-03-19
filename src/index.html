@@ -4,19 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>David Gómez Díaz | Front-End Developer</title>
+    <meta
+      name="description"
+      content="Portfolio de David Gómez Díaz - Front-End Developer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./scripts.js"></script>
   </head>
   <body>
     <div class="background-animate"></div>
     <header>
       <div class="header-content">
         <div class="avatar-container">
-          <img src="./img/me4.png" alt="Avatar" class="avatar" />
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAB4CAYAAAA6//q/AAACgklEQVR42u3dsU0cQRQGYKqxHJrQMqlbcAmkyA0QWUIiIceJG3CKCyCkAuTAHVCBJYhvgp17zNzs7L7vl/6Q1dy8D2nEsntnZyIiIiIiIiIi4/KarAKAACAAGLimBGLIACgAmgZAaAPuvn3ZdTOCAAAAAAAAIA2ArgO//Hy+6WYEAQAAAAAAQBoABp4cBAAAAAAAAGkANA3868eLgwKxPRAAAAAAAAAA8J5DXgkAiO4gAAAAAAAAAGAKALUPXAMxurODAAAAAAAAAIAsAP59/3DSzg4CAAAAAAAAAPYCoHXgz78um9oKYvShEwAAAAAAAABWBHDSmz+nHnhvEKMPnTPcHAIAAAAAAACAHoe+0QOeva0gAAAAAAAAAKAjgMULvjzeL/bn7z+hPv39n7rR/artfw8QAAAAAAAAAHAMgPJQEz0Elh+wvF6Z26tPiy1/vtzw2qFs9Hpqfygq97O8HgAAAAAAAAAAcNyG/7i+WSwAAAAAAAAAANAHQO3mT+uGl+tb+xDYup5yvwAAAAAAAABgVgDRBZetHcKiG1672RJdz8Pj00FHr6f2CwUAAAAAAAAAHQE0vRw6CiAKItrWf9pcez3lfq7x8mgAAAAAAADSAgiBiD7cuPaDGWs/nFq29qANAAAAAAAAAGzlO4SiXwiR7eHQ6Is1Zxg4AAAAAAAAALwHwOhDYu360Y4eeLl/AAAAAAAAALAXAL1B1DawN6CMAwcAAAAAAACAGUBEX1TZ+g8ZrevpMHAAAAAAAAAA2CSAVhDRzvZl0nscOAAAAAAAAABsAcSpWwOVYeAAAAAAAAAA0ANEwu4+hgyAAqBpAQCRfOAAAAAAAAAAICIiIqvlDdO2r79B70ccAAAAAElFTkSuQmCC" alt="Avatar" class="avatar" />
         </div>
         <h1 class="glow">David Gómez Díaz</h1>
         <p>Front-End Developer | Full-Stack Web Developer</p>
@@ -38,225 +46,168 @@
       <section id="about">
         <h2 class="section-title">Sobre Mí</h2>
         <div class="card">
-          <p>
-            ¡Hola! Soy David Gómez Díaz, desarrollador web Full-Stack con más de
-            un año de experiencia profesional. Actualmente trabajo como
-            Front-End Developer en Aracnosoft S.L., donde desarrollo soluciones
-            con Vue 3, WebScrapping y C#. Anteriormente, como freelance, lideré
-            proyectos significativos incluyendo una plataforma de streaming con
-            Angular y Firebase, y aplicaciones educativas con Next.js y React.
-          </p>
-          <p>
-            Mi formación comenzó con un Bootcamp intensivo de Full-Stack Web
-            Development (850 horas) financiado por NTT DATA y Factoria F5, y
-            desde entonces he crecido profesionalmente dominando diversas
-            tecnologías. Mi stack tecnológico incluye Angular, React, Vue y
-            Next.js en el front-end, complementado con SpringBoot, Firebase y
-            Laravel en el back-end.
-          </p>
-          <p>
-            Mi experiencia previa en gestión de equipos, combinada con mi pasión
-            por el desarrollo de videojuegos (con premios en GameJams) y el
-            diseño, me permite aportar una perspectiva única a los proyectos.
-            Dispongo de certificación de discapacidad (33%) y beneficios
-            fiscales para el empleador. Mi objetivo es seguir evolucionando
-            profesionalmente, creando soluciones innovadoras y aportando valor
-            significativo a cada proyecto en el que participo.
-          </p>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                ¡Hola! Soy <span class="highlight-pink">David Gómez Díaz</span>, desarrollador web <span class="highlight-blue">Full-Stack</span> con más de
+                un año de experiencia profesional. Actualmente trabajo como
+                <span class="highlight-pink">Front-End Developer en Aracnosoft S.L.</span>, donde desarrollo soluciones
+                con <span class="highlight-blue">Vue 3, WebScrapping y C#</span>. Anteriormente, como freelance, lideré
+                proyectos significativos incluyendo una <span class="highlight-pink">plataforma de streaming</span> con
+                Angular y Firebase, y <span class="highlight-pink">aplicaciones educativas</span> con Next.js y React.
+              </p>
+              <p>
+                Mi formación comenzó con un <span class="highlight-blue">Bootcamp intensivo de Full-Stack Web
+                Development (850 horas)</span> financiado por NTT DATA y Factoria F5, y
+                desde entonces he crecido profesionalmente dominando diversas
+                tecnologías. Mi stack tecnológico incluye <span class="highlight-pink">Angular, React, Vue y
+                Next.js</span> en el front-end, complementado con <span class="highlight-blue">SpringBoot, Firebase y
+                Laravel</span> en el back-end.
+              </p>
+              <p>
+                Mi experiencia previa en <span class="highlight-pink">gestión de equipos</span>, combinada con mi pasión
+                por el <span class="highlight-blue">desarrollo de videojuegos</span> (con premios en GameJams) y el
+                diseño, me permite aportar una perspectiva única a los proyectos. Mi objetivo es seguir evolucionando
+                profesionalmente, creando soluciones innovadoras y aportando valor
+                significativo a cada proyecto en el que participo.
+              </p>
+            </div>
+            <div class="about-image-container">
+              <img 
+                src="img/yo.png" 
+                alt="David Gómez Díaz" 
+                class="about-image project-image"
+                loading="lazy"
+                width="300"
+                height="300"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="projects" class="projects">
-        <h2 class="section-title">Proyectos Personales</h2>
+        <h2 class="section-title">Proyectos Personales y Profesionales</h2>
         <div class="card">
           <div class="card-content">
-            <h3>Titiritero</h3>
+            <h3>O Sibarita <span class="highlight-blue">- Proyecto Profesional Freelance</span></h3>
             <p>
-              Streaming web app con autenticación, chat en vivo, encuestas y CDN
-              de video.
+              <span class="highlight-pink">ERP de gestión de restaurante</span> con <span class="highlight-blue">gestión de contenido</span> para <span class="highlight-pink">pantallas publicitarias.</span>.
             </p>
             <p>
-              <strong>Herramientas:</strong> Angular, Firebase, NoSQL, Bootstrap
+              <strong>Herramientas:</strong> <span class="highlight-blue">Vue 3, PocketBase, Bulma, NoSQL</span>
             </p>
-            <a
-              class="btn"
-              href="https://titeres-5d0e7.web.app/home"
-              target="_blank"
-              >Live Demo</a
-            >
           </div>
-          <img
-            src="./img/titere.png"
-            alt="Titiritero screenshot"
-            class="project-image"
-          />
+          <img src="img/osibarita.png" alt="O Sibarita screenshot" class="project-image"/>
         </div>
 
         <div class="card">
           <div class="card-content">
-            <h3>Quizz Galicia</h3>
+            <h3>Titiritero <span class="highlight-blue">- Proyecto Profesional Freelance</span></h3>
             <p>
-              Juego de preguntas sobre Galicia con barajado de preguntas y
-              temporizador.
+              <span class="highlight-pink">Streaming web app</span> con <span class="highlight-blue">autenticación, chat en vivo, encuestas</span> y <span class="highlight-pink">CDN de video</span>.
             </p>
             <p>
-              <strong>Herramientas:</strong> Next.js, React, Tailwind, Firebase
+              <strong>Herramientas:</strong> <span class="highlight-blue">Angular, Firebase, NoSQL, Bootstrap</span>
             </p>
-            <a class="btn" href="https://galicia-quizz.web.app/" target="_blank"
-              >Live Demo</a
-            >
+            <a class="btn" href="https://titeres-5d0e7.web.app/home" target="_blank">Live Demo</a>
           </div>
-          <img
-            src="./img/galicia.png"
-            alt="Quizz Galicia screenshot"
-            class="project-image"
-          />
+          <img src="img/titere.png" alt="Titiritero screenshot" class="project-image"/>
         </div>
-
+      
         <div class="card">
           <div class="card-content">
-            <h3>Finisterre</h3>
-
+            <h3>Quizz Galicia <span class="highlight-blue">- Proyecto Personal</span></h3>
             <p>
-              Sitio web estático en Wordpress que muestra información y
-              ubicación.
+              <span class="highlight-pink">Juego de preguntas sobre Galicia</span> con <span class="highlight-blue">barajado de preguntas y temporizador</span>.
             </p>
-            <p><strong>Herramientas:</strong> Wordpress, Elementor</p>
-            <a
-              class="btn"
-              href="https://davidgdev.es/wordpress/"
-              target="_blank"
-              >Live Demo</a
-            >
+            <p>
+              <strong>Herramientas:</strong> <span class="highlight-blue">Next.js, React, Tailwind, Firebase</span>
+            </p>
+            <a class="btn" href="https://galicia-quizz.web.app/" target="_blank">Live Demo</a>
           </div>
-          <img
-            src="./img/wordpress.png"
-            alt="Finisterre screenshot"
-            class="project-image"
-          />
+          <img src="img/galicia.png" alt="Quizz Galicia screenshot" class="project-image"/>
         </div>
-
+      
         <div class="card">
           <div class="card-content">
-            <h3>Memory Game</h3>
-
+            <h3>Memory Game <span class="highlight-blue">- Proyecto Personal</span></h3>
             <p>
-              Juego de memoria desarrollado con Vue, que cuenta con cartas
-              aleatorias y contador.
+              <span class="highlight-pink">Juego de memoria</span> desarrollado con Vue, que cuenta con <span class="highlight-blue">cartas aleatorias y contador</span>.
             </p>
-            <p><strong>Herramientas:</strong> Vue, Bootstrap, Firebase</p>
-            <a class="btn" href="https://memorygamevue.web.app/" target="_blank"
-              >Live Demo</a
-            >
+            <p>
+              <strong>Herramientas:</strong> <span class="highlight-blue">Vue, Bootstrap, Firebase</span>
+            </p>
+            <a class="btn" href="https://memorygamevue.web.app/" target="_blank">Live Demo</a>
           </div>
-          <img
-            src="./img/vue.png"
-            alt="Memory Game screenshot"
-            class="project-image"
-          />
+          <img src="img/vue.png" alt="Memory Game screenshot" class="project-image"/>
         </div>
-
+      
         <div class="card">
           <div class="card-content">
-            <h3>Nesting</h3>
-
+            <h3>Nesting<span class="highlight-blue">- Proyecto Final Bootcamp NTT DATA</span></h3>
             <p>
-              Aplicación web para el sector inmobiliario con autenticación,
-              filtros y administración.
+              <span class="highlight-pink">Aplicación web inmobiliaria</span> con <span class="highlight-blue">autenticación, filtros y administración</span>.
             </p>
             <p>
-              <strong>Herramientas:</strong> Angular, SpringBoot, MySQL,
-              Bootstrap
+              <strong>Herramientas:</strong> <span class="highlight-blue">Angular, SpringBoot, MySQL, Bootstrap</span>
             </p>
-            <a
-              class="btn"
-              href="https://github.com/DirtdiverIV/Nesting"
-              target="_blank"
-              >Repositorio GH</a
-            >
+            <a class="btn" href="https://github.com/DirtdiverIV/Nesting" target="_blank">Repositorio GH</a>
           </div>
-          <img
-            src="./img/nesting.png"
-            alt="Nesting screenshot"
-            class="project-image"
-          />
+          <img src="img/nesting.png" alt="Nesting screenshot" class="project-image"/>
         </div>
-
+      
         <div class="card">
           <div class="card-content">
-            <h3>VetApp</h3>
-
+            <h3>VetApp<span class="highlight-blue">- Proyecto Final Bootcamp Factoria F5</span></h3>
             <p>
-              Aplicación de administración para clínicas veterinarias con
-              calendario y gestión de tratamientos.
+              <span class="highlight-pink">Aplicación de gestión veterinaria</span> con <span class="highlight-blue">calendario y control de tratamientos</span>.
             </p>
             <p>
-              <strong>Herramientas:</strong> Angular, SpringBoot, MySQL,
-              Bootstrap
+              <strong>Herramientas:</strong> <span class="highlight-blue">Angular, SpringBoot, MySQL, Bootstrap</span>
             </p>
-            <a
-              class="btn"
-              href="https://github.com/DirtdiverIV/VetApp2"
-              target="_blank"
-              >Repositorio GH</a
-            >
+            <a class="btn" href="https://github.com/DirtdiverIV/VetApp2" target="_blank">Repositorio GH</a>
           </div>
-          <img
-            src="./img/vetapp.png"
-            alt="VetApp screenshot"
-            class="project-image"
-          />
+          <img src="img/vetapp.png" alt="VetApp screenshot" class="project-image"/>
         </div>
-
+      
         <div class="card">
           <div class="card-content">
-            <h3>Zoolander</h3>
-
+            <h3>Zoolander <span class="highlight-blue">- Proyecto Educativo Factoria F5</span></h3>
             <p>
-              Aplicación web de gestión para zoológicos con autenticación,
-              manejo de animales y control de stock.
+              <span class="highlight-pink">Aplicación de gestión zoológica</span> con <span class="highlight-blue">autenticación, manejo de animales y control de stock</span>.
             </p>
             <p>
-              <strong>Herramientas:</strong> Angular, SpringBoot, MySQL,
-              Bootstrap
+              <strong>Herramientas:</strong> <span class="highlight-blue">Angular, SpringBoot, MySQL, Bootstrap</span>
             </p>
-            <a
-              class="btn"
-              href="https://github.com/DirtdiverIV/Zoolander"
-              target="_blank"
-              >Repositorio GH</a
-            >
+            <a class="btn" href="https://github.com/DirtdiverIV/Zoolander" target="_blank">Repositorio GH</a>
           </div>
-          <img
-            src="./img/zoo.png"
-            alt="Zoolander screenshot"
-            class="project-image"
-          />
+          <img src="img/zoo.png" alt="Zoolander screenshot" class="project-image"/>
         </div>
       </section>
 
       <section id="skills">
-        <h2 class="section-title">Habilidades</h2>
+        <h2 class="section-title">Habilidades Principales</h2>
         <div class="skills-grid">
           <div class="card">
             <h3>Frontend</h3>
             <ul>
-              <li>Angular, React, Vue, Next.js</li>
-              <li>Wordpress, Bootstrap, PrimeVue, Tailwind, Material</li>
+              <li>Angular, React, Vue</li>
+              <li>Bootstrap, PrimeVue, Tailwind, Material, Bulma</li>
             </ul>
           </div>
 
           <div class="card">
             <h3>Backend</h3>
             <ul>
-              <li>SpringBoot, Firebase, Laravel, Node.js, MySQL</li>
+              <li> Firebase, MySQL, NoSQL, PostgreSQL, Postman</li>
             </ul>
           </div>
 
           <div class="card">
             <h3>Lenguajes</h3>
             <ul>
-              <li>HTML5, SASS/CSS3, JavaScript, TypeScript, Java, SQL, C#</li>
+              <li>HTML5, SASS/CSS3, JavaScript, TypeScript, SQL</li>
             </ul>
           </div>
 
@@ -278,69 +229,92 @@
         </div>
       </section>
 
+      <section id="skills">
+        <h2 class="section-title">Habilidades en Desarrollo</h2>
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Frontend</h3>
+            <ul>
+              <li>React, Next.js</li>
+              <li>Wordpress, Elementor</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Backend</h3>
+            <ul>
+              <li>SpringBoot, PHP, Laravel</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Lenguajes</h3>
+            <ul>
+              <li>Java, C#, Python</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <section id="career">
         <h2 class="section-title">Experiencia Profesional</h2>
         <div class="card">
           <h3>Front-End Web Developer</h3>
           <p><strong>Marzo 2024 - Actualidad</strong></p>
           <p>
-            Desarrollo en
-            <a
-              href="https://www.linkedin.com/company/aracnosoft/"
-              target="_blank"
-              class="btn"
-              >Aracnosoft S.L.</a
-            >
-            con Vue 3, PrimeVue, WebScrapping, C#, Selenium y PostgreSQL.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Front-End Web Developer - Freelance</h3>
-          <p><strong>Febrero 2024 - Marzo 2024</strong></p>
-          <p>
-            Proyecto para
-            <a
-              href="https://www.linkedin.com/company/nealia1/"
-              target="_blank"
-              class="btn"
-              >Nealia Consulting</a
-            >
-            utilizando React y React PDF.
+            Desarrollo en <span class="highlight-pink">Aracnosoft S.L.</span> con 
+            <span class="highlight-blue">Vue 3, PrimeVue, WebScrapping, C#, Selenium</span> y 
+            <span class="highlight-pink">PostgreSQL</span>. Desarrollo de ERP, Marketplace, CRM y RPAs
           </p>
         </div>
 
         <div class="card">
           <h3>Full-Stack Freelance Developer</h3>
-          <p><strong>Octubre 2023 - Febrero 2024</strong></p>
+          <p><strong>Octubre 2024 - Febrero 2025</strong></p>
           <p>
-            Desarrollo de tres proyectos para un mismo cliente: plataforma de
-            transmisión en vivo, juegos para adultos y juegos pedagógicos.
+            Proyecto para <span class="highlight-pink">Code2015 S.L.</span> utilizando 
+            <span class="highlight-blue">Vue 3, PocketBase, Bulma, NoSQL</span>. Desarrollo de <span class="highlight-pink">ERP de gestión de restaurante</span> con <span class="highlight-blue">gestión de contenido</span> para <span class="highlight-pink">pantallas publicitarias</span>.
           </p>
         </div>
-
+      
+        <div class="card">
+          <h3>Front-End Web Developer - Freelance</h3>
+          <p><strong>Febrero 2024 - Marzo 2024</strong></p>
+          <p>
+            Proyecto para <span class="highlight-pink">Nealia Consulting</span> utilizando 
+            <span class="highlight-blue">React y React PDF</span>. Modificaciones en un ERP
+          </p>
+        </div>
+      
+        <div class="card">
+          <h3>Full-Stack Freelance Developer</h3>
+          <p><strong>Octubre 2023 - Febrero 2024</strong></p>
+          <p>
+            Desarrollo de tres proyectos: <span class="highlight-pink">plataforma de transmisión en vivo</span>, 
+            <span class="highlight-blue">juegos para adultos</span> y <span class="highlight-pink">juegos pedagógicos</span>.
+          </p>
+        </div>
+      
         <div class="card">
           <h3>Seguridad Privada</h3>
           <p><strong>Febrero 2007 - Abril 2023</strong></p>
           <p>
-            Experiencia como Oficial y Jefe de Seguridad en Prosegur,
-            desarrollando habilidades en gestión de equipos y atención al
-            cliente.
+            Experiencia como <span class="highlight-pink">Oficial y Jefe de Seguridad</span> en Prosegur,
+            desarrollando habilidades en <span class="highlight-blue">gestión de equipos y atención al cliente</span>.
           </p>
         </div>
       </section>
 
       <section id="awards" class="projects">
         <h2 class="section-title">Premios y Reconocimientos</h2>
-
         <div class="card">
           <div class="card-content">
             <h3>II Gamejam Molab</h3>
-            <p><strong>Octubre 2019</strong> - Premio a Mejor Diseño</p>
-
+            <p><strong>Octubre 2019</strong> - <span class="highlight-pink">Premio a Mejor Diseño</span></p>
             <p>
-              Érase una vez - Un juego narrativo con mecánicas de puzzle y una
-              historia envolvente y pixelart tambien realizado por mi.
+              <span class="highlight-blue">Érase una vez</span> - Un juego narrativo con 
+              <span class="highlight-pink">mecánicas de puzzle</span> y una historia envolvente y 
+              <span class="highlight-blue">pixelart</span> también realizado por mi.
             </p>
             <div class="game-embed">
               <iframe
@@ -349,35 +323,25 @@
                 width="100%"
                 height="169"
               >
-                <a href="https://dirtgamediver.itch.io/erase-una-vez"
-                  >Érase una vez by dirtgamediver</a
-                >
+                <a href="https://dirtgamediver.itch.io/erase-una-vez">Érase una vez by dirtgamediver</a>
               </iframe>
             </div>
           </div>
-          <img
-            src="./img/molab2.png"
-            alt="Érase una vez screenshot"
-            class="project-image"
-          />
+          <img src="img/molab2.png" alt="Érase una vez screenshot" class="project-image"/>
         </div>
-
+      
         <div class="card">
           <div class="card-content">
             <h3>I Gamejam Molab</h3>
             <p>
-              <strong>Agosto 2018</strong> - Premio a Mejor Videojuego y a Mejor
-              Diseño en la Universidad de A Coruña.
-              <a
-                class="btn"
-                href="https://www.laopinioncoruna.es/coruna/2018/07/03/mono-espacial-triunfar-mejor-videojuego-24025822.html"
-                target="_blank"
-                >Artículo</a
-              >
+              <strong>Agosto 2018</strong> - <span class="highlight-pink">Premio a Mejor Videojuego</span> y 
+              <span class="highlight-blue">Mejor Diseño</span> en la Universidad de A Coruña.
+              <a class="btn" href="https://www.laopinioncoruna.es/coruna/2018/07/03/mono-espacial-triunfar-mejor-videojuego-24025822.html" target="_blank">Artículo</a>
             </p>
             <p>
-              Strato - Un juego de plataformas con mecánicas únicas y diseño
-              Pixel Art creado integramente por mi en 3 dias.
+              <span class="highlight-blue">Strato</span> - Un juego de plataformas con 
+              <span class="highlight-pink">mecánicas únicas</span> y diseño 
+              <span class="highlight-blue">Pixel Art</span> creado íntegramente por mi en 3 días.
             </p>
             <div class="game-embed">
               <iframe
@@ -386,17 +350,11 @@
                 width="100%"
                 height="169"
               >
-                <a href="https://dirtgamediver.itch.io/strato"
-                  >Strato by dirtgamediver</a
-                >
+                <a href="https://dirtgamediver.itch.io/strato">Strato by dirtgamediver</a>
               </iframe>
             </div>
           </div>
-          <img
-            src="./img/prensa.png"
-            alt="Strato screenshot"
-            class="project-image"
-          />
+          <img src="img/prensa.png" alt="Strato screenshot" class="project-image"/>
         </div>
       </section>
 
@@ -419,20 +377,14 @@
             >
           </div>
           <div class="contact-item">
-            <h3>Portfolio</h3>
-            <a
-              class="btn"
-              href="http://www.davidgdev.es/portfolio"
-              target="_blank"
-              >Mi Web</a
+            <h3>Repositorio</h3>
+            <a class="btn" href="https://github.com/DirtdiverIV" target="_blank"
+              >GitHub</a
             >
           </div>
           <div class="contact-item">
             <h3>Curriculum</h3>
-            <a
-              class="btn"
-              href="./files/DavidGomezCV2025.pdf"
-              target="_blank"
+            <a class="btn" href="/files/DavidGomezCV2025.pdf" target="_blank"
               >Ver CV</a
             >
           </div>
@@ -443,8 +395,5 @@
     <footer>
       <p>&copy; 2025 David Gómez Díaz.</p>
     </footer>
-
-    <script type="module" src="./scripts.js"></script>
-    <script type="module" src="./init-scene.js"></script>
   </body>
 </html>
